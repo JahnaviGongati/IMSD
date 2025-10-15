@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Colors Example</title>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .rgb {
+      color: rgb(255, 0, 0);
+    }
+    .rgba {
+      color: rgba(0, 128, 0, 0.8);
+    }
+    .hex {
+      color: #8e44ad;
+    }
+    .hsl {
+      color: hsl(200, 80%, 40%);
+    }
+    .hsla {
+      color: hsla(35, 90%, 55%, 0.9);
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Color Formats</h1>
+  <p class="rgb">This text uses RGB color format.</p>
+  <p class="rgba">This text uses RGBA color format.</p>
+  <p class="hex">This text uses HEX color format.</p>
+  <p class="hsl">This text uses HSL color format.</p>
+  <p class="hsla">This text uses HSLA color format.</p>
+</body>
+</html>

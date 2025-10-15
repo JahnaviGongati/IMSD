@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Window Object</title>
+</head>
+<body>
+  <h2>JavaScript Window Object Example</h2>
+  <button onclick="openWindow()">Open Window</button>
+  <button onclick="closeWindow()">Close Window</button>
+  <button onclick="showAlert()">Show Alert</button>
+
+  <script>
+    let newWin;
+    function openWindow() {
+      newWin = window.open("https://www.google.com", "_blank", "width=600,height=400");
+    }
+    function closeWindow() {
+      if (newWin) newWin.close();
+    }
+    function showAlert() {
+      window.alert("This is an alert message using window object!");
+    }
+  </script>
+</body>
+</html>

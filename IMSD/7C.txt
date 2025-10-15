@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Array Object</title>
+</head>
+<body>
+  <h2>JavaScript Array Object Example</h2>
+  <script>
+    let fruits = ["Apple", "Banana", "Cherry"];
+    document.write("<p>Original Array: " + fruits + "</p>");
+
+    // Add and remove elements
+    fruits.push("Mango");
+    document.write("<p>After push: " + fruits + "</p>");
+
+    fruits.pop();
+    document.write("<p>After pop: " + fruits + "</p>");
+
+    // Sorting and joining
+    fruits.sort();
+    document.write("<p>After sort: " + fruits + "</p>");
+    document.write("<p>Joined with '-': " + fruits.join(" - ") + "</p>");
+  </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Document Object</title>
+</head>
+<body>
+  <h2>JavaScript Document Object Example</h2>
+  <p id="demo">This text will change using the document object.</p>
+  <button onclick="changeText()">Click Me</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("demo").innerHTML = "Text updated using document.getElementById()!";
+      document.body.style.backgroundColor = "#e6f7ff";
+      document.title = "Document Object Updated!";
+    }
+  </script>
+</body>
+</html>

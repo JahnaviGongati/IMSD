@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Internal Script Example</title>
+  <script>
+    function greet() {
+      document.getElementById("msg").innerHTML = "Welcome to JavaScript Internal Script!";
+    }
+  </script>
+</head>
+<body>
+  <h1>Internal JavaScript Example</h1>
+  <p id="msg">Click the button below to display a message.</p>
+  <button onclick="greet()">Click Me</button>
+</body>
+</html>

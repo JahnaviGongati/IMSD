@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thumbnail Image Gallery</title>
+</head>
+<body>
+    <h1>Thumbnail Image Gallery</h1>
+    <p>Click on any image to view the full-size version.</p>
+
+    <a href="JBL.jpg" target="_blank"><img src="JBL.jpg" width="100" height="100"></a>
+    <a href="https://picsum.photos/id/1015/600/400" target="_blank"><img src="https://picsum.photos/id/1015/100/100"></a>
+    <a href="https://picsum.photos/id/1016/600/400" target="_blank"><img src="https://picsum.photos/id/1016/100/100"></a>
+    <a href="https://picsum.photos/id/1018/600/400" target="_blank"><img src="https://picsum.photos/id/1018/100/100"></a>
+    <a href="https://picsum.photos/id/1020/600/400" target="_blank"><img src="https://picsum.photos/id/1020/100/100"></a>
+</body>
+</html>

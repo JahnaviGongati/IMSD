@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Background Properties</title>
+  <style>
+    body {
+      background-color: #e3f2fd;
+      background-image: url("https://picsum.photos/800/400");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 100px;
+      font-family: Verdana, sans-serif;
+    }
+    h1 {
+      background-color: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Beautiful Background Demonstration</h1>
+  <p>CSS allows us to set image, repeat, attachment, and size for background.</p>
+</body>
+</html>

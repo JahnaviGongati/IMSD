@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model Example</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f7;
+      padding: 30px;
+    }
+    .box {
+      width: 300px;
+      background-color: #dff9fb;
+      border: 4px solid #22a6b3;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+      border-radius: 10px;
+    }
+    .info {
+      background-color: #f9ca24;
+      border: 2px dashed #f0932b;
+    }
+  </style>
+</head>
+<body>
+  <h1>Understanding the CSS Box Model</h1>
+  <div class="box">
+    <h3>Box Example 1</h3>
+    <p>This box has border, padding, margin, and shadow effects.</p>
+  </div>
+
+  <div class="box info">
+    <h3>Box Example 2</h3>
+    <p>This box uses a dashed border and different background.</p>
+  </div>
+</body>
+</html>

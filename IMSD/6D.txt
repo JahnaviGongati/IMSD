@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Type Conversion</title>
+</head>
+<body>
+  <h2>JavaScript Type Conversion Example</h2>
+  <script>
+    let num1 = "10";
+    let num2 = "20";
+
+    document.write("<p>Before conversion: " + (num1 + num2) + "</p>");
+
+    // Convert strings to integers
+    let result = parseInt(num1) + parseInt(num2);
+    document.write("<p>After parseInt conversion: " + result + "</p>");
+
+    // Using Number() function
+    let x = "15.5";
+    let y = Number(x);
+    document.write("<p>Converted float using Number(): " + y + "</p>");
+
+    // Converting number to string
+    let z = 100;
+    let str = String(z);
+    document.write("<p>Converted number to string: " + str + "</p>");
+  </script>
+</body>
+</html>

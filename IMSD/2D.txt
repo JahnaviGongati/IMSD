@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Frame</title>
+</head>
+<body>
+  <h2 align="center">Welcome to Our Site</h2>
+  <div align="center">
+    <img src="people.jpeg" alt="Sample Image" width="600">
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paragraph Frame</title>
+</head>
+<body>
+  <h3 align="center">About Us</h3>
+  <p align="justify" style="padding: 10px;">
+    This website demonstrates the usage of HTML frames by dividing the layout into three horizontal sections.
+    The first frame shows an image, the second frame provides some descriptive text, and the third frame lists useful links.
+  </p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Links Frame</title>
+</head>
+<body>
+  <h3 align="center">Useful Links</h3>
+  <ul style="text-align: center; list-style-type: none;">
+    <li><a href="https://www.google.com" target="_blank">Google</a></li>
+    <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+    <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+  </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frameset Example</title>
+</head>
+<frameset rows="30%,40%,30%">
+  <frame src="image.html" name="frame1">
+  <frame src="paragraph.html" name="frame2">
+  <frame src="links.html" name="frame3">
+  <noframes>
+    <body>
+      <p>This page uses frames but your browser does not support them.</p>
+    </body>
+  </noframes>
+</frameset>
+</html>
+

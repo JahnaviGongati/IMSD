@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Math Object</title>
+</head>
+<body>
+  <h2>JavaScript Math Object Example</h2>
+  <script>
+    document.write("<p>Math.PI = " + Math.PI + "</p>");
+    document.write("<p>Square root of 25 = " + Math.sqrt(25) + "</p>");
+    document.write("<p>Power (2^5) = " + Math.pow(2, 5) + "</p>");
+    document.write("<p>Random number (0-1) = " + Math.random() + "</p>");
+    document.write("<p>Round(4.6) = " + Math.round(4.6) + "</p>");
+    document.write("<p>Ceil(4.2) = " + Math.ceil(4.2) + "</p>");
+    document.write("<p>Floor(4.9) = " + Math.floor(4.9) + "</p>");
+  </script>
+</body>
+</html>

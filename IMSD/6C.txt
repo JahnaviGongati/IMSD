@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript I/O Methods</title>
+</head>
+<body>
+  <h2>JavaScript Input and Output Examples</h2>
+  <script>
+    // Prompt for user input
+    let name = prompt("Enter your name:");
+    alert("Hello, " + name + "! Welcome to JavaScript demo.");
+
+    // Write on the web page
+    document.write("<h3>Welcome, " + name + "!</h3>");
+
+    // Console output
+    console.log("User name entered: " + name);
+  </script>
+</body>
+</html>
